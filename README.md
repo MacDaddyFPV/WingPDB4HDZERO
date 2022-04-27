@@ -33,9 +33,20 @@ The files provided in this repository under Fabrication can be used directly wit
 * BOM (.csv)
 * Pick and place file (.csv)
 
-To start, dowload these files from github the in a browser fo to https://jlcpcb.com
-Create an account and sign in.
-Click on "Order Now" and make sure you are on the PCB tab
-Click on "Add gerber file" and select the Gerber zip file that was downloaded
-After the file has uploaded you should see a front and rear picture of the PCB layout
-Select the PCB Qty for the number of boards you wish to order and leave the remainder of the settings as defualt
+To start, dowload these files from github the in a browser fo to https://jlcpcb.com  
+Create an account and sign in  
+Click on "Order Now" and make sure you are on the PCB tab  
+Click on "Add gerber file" and select the Gerber zip file that was downloaded  
+After the file has uploaded you should see a front and rear picture of the PCB layout  
+Select the PCB Qty for the number of boards you wish to order and leave the remainder of the settings as defualt  
+Scroll down to the bottom and on the SMT Assembly panel press the switch button to open up more options  
+Leave Assemble Top side and Tooling holes by JLCPCB, select the QTY (Above 5 it is fixed to the number of boards ordered) and agree to the Terms  
+Select "Confirm" then the "Next" over on the right side of the page  
+Click on "Add BOM File" then select the BOM file that was downloaded  
+Click on "Add CPL File" and select the Pick and Place file that was downloaded  
+Select a usage description form the drop down such as Electronics and Hobbies - DIY then click Next  
+On this page you want the total parts detected and total parts confirmed to match. If not the case then see **Choosing Alternate Parts** 
+If all parts are confirmed then click Next  
+Review the order and then click "Save To Cart"  
+
+
