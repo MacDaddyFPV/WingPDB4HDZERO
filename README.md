@@ -4,10 +4,12 @@
 
 ## Introduction
 
+I will start by saying I am not affiliated with HDZERO or DIVIMATH besides being a user of the system.
+
 This project was created from a desire to use the HDZERO video transmission system on wings and planes without a flight controller.
 As the HDZERO system requires MSP communication to transmit and display OSD inormation, it is required to use some sort of microcontroller to do this.
 
-It was suggested that a cheap flight controller could be used, but generally there are not cheap flight controllers which also have pdb style pads and regulators with sufficient amperage to power servos via a pwm reciever. The flight controllers also have a lot of unused components for this use case such as gyro and osd chip. With all this in mind, I decided to delve into designing a board which has minimal required components to save on cost and also provide the power supply requirements for a standard wing.
+It was suggested that a cheap flight controller could be used, but generally there are not cheap flight controllers which also have pdb style pads and regulators with sufficient amperage to power servos via a pwm reciever. The flight controllers also have a lot of unused components for this use case such as gyro and osd chip. With all this in mind, I decided to delve into designing a board which has minimal required components to save on cost and also provide the power supply requirements for a standard wing. This is my first ever PCB design and I learnt through the process of studying other designs, getting feedback from other designers and of course, trial and error.
 
 ## Design
 
