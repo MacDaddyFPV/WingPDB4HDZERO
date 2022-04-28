@@ -58,5 +58,8 @@ To start:
 
 ### Choosing Alternative Parts
 
-
+If you find that not all of the parts are available at the time of ordering you have a few options:
+- You could wait until all parts become available again. You can check for stock levels here https://jlcpcb.com/parts
+- You can click on the Magnifying Glass icon (search) for the item/s that are out of stock which will bring up a list of components that may be compatible. You will want to select an item with the same footprint and similar attributes. For example there are a number of f411 MCUs that could work as a direct replacement (STM32F411CEU6TR, STM32F411CCU6TR). These replacements should work but are untested.
+- You can clone the design and change out the components for something else that will work in its place. If you go with this method it would be appreciated if after the design is confirmed to work, that the Fabrication files along with a link to the design is committed to this repository.
 
