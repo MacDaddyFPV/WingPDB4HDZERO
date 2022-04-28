@@ -63,3 +63,19 @@ If you find that not all of the parts are available at the time of ordering you 
 - You can click on the Magnifying Glass icon (search) for the item/s that are out of stock which will bring up a list of components that may be compatible. You will want to select an item with the same footprint and similar attributes. For example there are a number of f411 MCUs that could work as a direct replacement (STM32F411CEU6TR, STM32F411CCU6TR). These replacements should work but are untested.
 - You can clone the design and change out the components for something else that will work in its place. If you go with this method it would be appreciated if after the design is confirmed to work, that the Fabrication files along with a link to the design is committed to this repository.
 
+## Flashing
+
+Once you recieve your board from the manufacturer you will need to flash it with the hex file found in the resources folder.  
+First You will need to download INAV configurator 4.1 https://github.com/iNavFlight/inav-configurator/releases/tag/4.1.0.  
+I would also recomend that if you don't already have the ImpulseRC Driver Fixer that you download it.
+
+To flash:
+- Open the INAV 4.1 configurator and click "Firmware Flasher" on the left
+- Put the board into DFU mode by plugging in the USB whilst holding the boot button
+- If this does not work try running the ImpulseRC Driver Fixer the do the same process
+- Once in DFU mode select "Load Firmware [local]" then select the downloaded hex file then click "Open"
+- click "Flash Firmware" (ensure "full Chip Erase" is selected) and wait for the flashing to complete
+- A new COM Port connection should show up, click "Connect" with this selected to connect
+
+## Setup
+
